@@ -21,68 +21,80 @@
 
        
         h1{
-            text-align: center;
             font-size: 70pt;
-            margin-bottom: 30rem;
-
-        }
-
-        text{
-            margin-left: 2rem;
-            margin-right: 50%;
-            padding-right: 3rem;
-
-        
         }
         
         h2{ 
-            font-size: ;
-
+            font-size: 20pt;
         }
 
         h3{
-            font-size: 13pt;
-
+            font-size: 18pt;
         }
 
         p.intro{
+            /*margin-left: 2rem;
+            margin-right: 50%;
+            padding-right: 3rem;*/
+
             font-size: 14pt;
             text-align: justify;
             hyphens: auto; /* Enable hyphenation */
             word-spacing: 0em; /* Adjust word spacing slightly */
             text-justify:inter-word; /* Use inter-word justification */
+        } 
+        
+        section{
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-
-        /* Styling for the vertical line */
-
-    .vertical-line {
-    position:absolute; /* Fix the position so it stays in place when scrolling */
-    top: 65rem;
-    left: 50%; /* Position the line at the center of the page */
-    width: 2px; /* Line thickness */
-    height: 100%; /* Full height of the page */
-    background-color: rgba(255, 255, 255, 0.527); /* Line color */
-    z-index: 1000; /* Ensure it is above other content */ }
-q{
-    color: #fff;
-}
-
+        section > div.txt{
+            max-width: 40rem;
+        }
 
 
     </style>
 </head>
 <body>
+
     
-    <h1>Astra Invisibilia</h1>
+    <section>
+        <div class="txt">
+            <h1>Astra Invisibilia</h1>
+        </div><!--.txt-->
+    </section>
     
-    <text>
-        <h2>questions</h2>
-
-
-        <h3>bienvenues</h3>
-
-        <p>
+    <section>
+        <div class="txt">
+            <h2>Avez-vous déjà contemplé une photo satellite de la Terre, baignée dans la nuit ? </h2>
+        </div><!--.txt-->
+    </section>
+    
+    <section>
+        <div class="txt">
+            <h2>Avez-vous déjà été témoin de ce fascinant "échange" lumineux entre ciel et terre ?</h2>
+        </div><!--.txt-->
+    </section>
+    
+    <section>
+        <div class="txt">
+            <h2>Avez-vous déjà ressenti la douceur d'une nuit où les étoiles rivalisent avec les lumières des villes ?</h2>
+        </div><!--.txt-->
+    </section>
+    
+    <section>
+        <div class="txt">
+            <h2>Avez-vous déjà prêté l'oreille aux murmures nocturnes, là où la faune trouve refuge dans l'obscurité ? </h2>
+        </div><!--.txt-->
+    </section>
+    
+    <section>
+        <div class="txt">
+            <h3>Bienvenues</h3>
             <p class="intro">
 
                 Plongez dans un univers où la terre et le ciel échangent leurs rôles, où les étoiles se mêlent aux lumières artificielles des villes. Partant de l’illusion d’un "ciel étoilé" sur terre, un phénomène fascinant se dévoile : la voie lactée céleste se voit peu à peu remplacée par une constellation terrestre scintillante.
@@ -92,14 +104,12 @@ q{
             Pour illustrer cette métamorphose, les données de la pollution lumineuse en Suisse, de 1994 à 2020, sont mises en lumière. Ces informations racontent une histoire, celle d’un monde où la nuit se rétrécit. En mettant en avant les zones les plus sombres, un écho est fait aux "trames noires", ces sanctuaires où la faune nocturne trouve refuge.
 
             Le voyage ne s'arrête pas à la vue. Le son enveloppe l'œuvre, accentuant la prise de conscience de ces territoires en voie de disparition. Ainsi, cette création se veut non seulement éducative mais aussi une ode poétique à la nuit et à la nature qui, malgré tout, subsiste.
-        
+    
             </p>
-        
-        </p>
-
-        
-        
-    </text>
+        </div><!--.txt-->
+    </section>
+    
+    
 
 
     <div class="vertical-line"></div>
