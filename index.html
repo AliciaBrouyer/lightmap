@@ -7,21 +7,20 @@
     <style>
         body{
             font-family: sans-serif;
-            min-height: 980vh;
+            min-height: 600vh;
             background: linear-gradient(rgb(23, 23, 23), rgb(0, 0, 0));
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             color: #fff;
-            /*margin-left: 25rem;
-            margin-right: 25rem;*/
-            margin-top: 20rem;
-            
+            margin-top: 1rem;
+        
         }
 
        
         h1{
             font-size: 70pt;
+            text-align: center;
         }
         
         h2{ 
@@ -33,10 +32,6 @@
         }
 
         p.intro{
-            /*margin-left: 2rem;
-            margin-right: 50%;
-            padding-right: 3rem;*/
-
             font-size: 14pt;
             text-align: justify;
             hyphens: auto; /* Enable hyphenation */
@@ -54,6 +49,20 @@
 
         section > div.txt{
             max-width: 40rem;
+        }
+
+/* SCROLL */
+
+        body{
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+            scroll-behavior: smooth;
+        }
+
+         
+        section{
+            outline: 1px solid pink;
+            scroll-snap-align: start;
         }
 
 
