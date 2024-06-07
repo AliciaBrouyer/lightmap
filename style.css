@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+    min-height: 600vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #fff;
+    margin-top: 1rem;
+
+}
+
+
+h1{
+    font-size: 70pt;
+    text-align: center;
+}
+
+h2{ 
+    font-size: 20pt;
+}
+
+
+p.intro{
+    font-size: 14pt;
+    text-align: justify;
+    hyphens: auto; /* Enable hyphenation */
+    word-spacing: 0em; /* Adjust word spacing slightly */
+    text-justify:inter-word; /* Use inter-word justification */
+} 
+
+section{
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div.txt{
+    max-width: 40rem;
+}
+
+.pres{
+
+}
+
+
+/* FOOTER */
+
+section > div.footer{  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+div.bottomfooter{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+
+
+/* SCROLL */
+
+body{
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+ 
+section{
+    outline: 1px solid pink;
+    scroll-snap-align: start;
+}
+
+
+
+/* GRADIENT */
+
+.grad{
+    /* outline: 1px solid blue; */
+    position: fixed;
+    top: 0;
+    left: 0; 
+    /* background-color: #f0f3; */
+    background: linear-gradient(#000,#0000);
+    width: 100%;
+    height: 50vh;
+}
+.bottom.grad{
+    top: auto;
+    bottom: 0;
+    transform: rotate(180deg);
+}
