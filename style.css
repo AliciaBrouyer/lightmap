@@ -1,21 +1,16 @@
 
 
+
+/*  TYPO A CHANGER!!!!!!!!! */
 @font-face {
-    font-family: 'Monospace';
-    src: url('fonts/Aloha.woff2') format('woff2');
-    /*font-weight: thin;*/
-    font-style: thin;
+    font-family: 'Manuscrite';
+    src: url('fonts/Millionaire-Roman.woff2') format('woff2');
+    /*font-weight: normal;
+    font-style: normal;*/
 }
-
-body {
-    font-family: 'Monospace';
-}
-
-
 
 
 body{
-    
     min-height: 600vh;
     background-color: #000000;
     display: flex;
