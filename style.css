@@ -67,6 +67,18 @@ section.div.intfooter{
 
 }
 
+.button{
+    color: black;
+    font-family: 'Monospace';
+    font-weight: 14pt;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+    width: 10rem;
+}
+
 
 
 /* FOOTER */
