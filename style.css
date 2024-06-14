@@ -58,10 +58,13 @@ section.div.intfooter{
     
 }
 
-p:has(.voir){
-    width: 100%;
-    text-align: c;
+
+#introText{
+    z-index: 51;
+    position: relative;
+
 }
+
 .voir{
     color: black;
     font-family: 'manuscrite';
@@ -115,11 +118,6 @@ p:has(.voir){
     flex-direction: column;
 }
 
-.credits{
-    
-}
-
-
 
 /* SCROLL */
 
@@ -137,6 +135,7 @@ section{
 
 footer{
     color: #999;
+    position: relative;
     z-index: 99;
 }
 
