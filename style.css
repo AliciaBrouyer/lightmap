@@ -13,10 +13,7 @@
 body{
     font-family: 'chaton';
     min-height: 600vh;
-    background-image: url(img/ciel.png) ;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -67,7 +64,7 @@ p:has(.voir){
 }
 .voir{
     color: black;
-    font-family: 'manuscrite';
+    font-family: 'chaton';
     font-weight: 14pt;
     /* background-color: rgb(255, 255, 255); */
 
@@ -85,6 +82,12 @@ p:has(.voir){
 }
 .voir:hover{
     background: linear-gradient(#EEE ,#FFF 33%, #FFF 67%, #EEE);
+}
+
+a{
+    text-decoration: none;
+    font-family: 'chaton';
+    font-variant: bold;
 }
 
 /* .button{
@@ -177,3 +180,14 @@ footer{
 }
 
 
+
+/* DETAIL */
+
+.imgInstal img{
+    width: 100vw;
+}
+
+#black{
+    background-image: none;
+        background-color: black;
+}
