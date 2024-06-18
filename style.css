@@ -13,7 +13,10 @@
 body{
     font-family: 'chaton';
     min-height: 600vh;
-    background-color: #000000;
+    background-image: url(img/ciel.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -58,13 +61,10 @@ section.div.intfooter{
     
 }
 
-
-#introText{
-    z-index: 51;
-    position: relative;
-
+p:has(.voir){
+    width: 100%;
+    text-align: c;
 }
-
 .voir{
     color: black;
     font-family: 'manuscrite';
@@ -118,6 +118,11 @@ section.div.intfooter{
     flex-direction: column;
 }
 
+.credits{
+    
+}
+
+
 
 /* SCROLL */
 
@@ -135,7 +140,6 @@ section{
 
 footer{
     color: #999;
-    position: relative;
     z-index: 99;
 }
 
@@ -167,7 +171,9 @@ footer{
 
 .colonne{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items:flex-end;
     justify-content: space-between;
 }
+
+
