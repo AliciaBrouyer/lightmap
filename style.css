@@ -13,7 +13,6 @@
 body{
     font-family: 'chaton';
     min-height: 600vh;
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -31,6 +30,10 @@ h2{
     font-size: 20pt;
 }
 
+h3{ 
+    font-size: 20pt;
+    text-align: center;
+}
 
 p.intro{
     font-size: 14pt;
@@ -182,9 +185,54 @@ footer{
 
 
 /* DETAIL */
+.imgInstal{
+    position: relative;
+}
 
 .imgInstal img{
     width: 100vw;
+}
+
+#T1{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translateY(-50%);
+}
+
+#T2{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+#T3{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+#T4{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+#T5{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+#T6{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
 }
 
 #black{
