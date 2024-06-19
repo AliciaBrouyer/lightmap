@@ -74,7 +74,7 @@ p:has(.voir){
     background: linear-gradient(#CCC ,#FFF 33%, #FFF 67%, #999);
 
     border-radius: 20px;
-    margin-left: 50%;
+    margin-left: 40%;
     transform: translateX(-50%);
     padding: 1rem;
     width: 10rem;
@@ -198,6 +198,7 @@ footer{
     top: 50%;
     left: 22%;
     transform: translateY(-50%);
+    font-size: 14pt
 }
 
 #T2{
@@ -205,6 +206,7 @@ footer{
     top: 40%;
     left: 8%;
     transform: translateY(-50%);
+    font-size: 14pt
 }
 
 #T3{
@@ -212,6 +214,7 @@ footer{
     top: 40%;
     left: 8%;
     transform: translateY(-50%);
+    font-size: 14pt
 }
 
 #T4{
@@ -219,6 +222,7 @@ footer{
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
+    font-size: 14pt
 }
 
 #T5{
@@ -226,6 +230,7 @@ footer{
     top: 40%;
     left: 8%;
     transform: translateY(-50%);
+    font-size: 14pt
 }
 
 #T6{
@@ -233,6 +238,7 @@ footer{
     top: 40%;
     left: 8%;
     transform: translateY(-50%);
+    font-size: 14pt
 }
 
 #black{
