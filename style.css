@@ -34,6 +34,9 @@ h3{
     font-size: 20pt;
     text-align: center;
 }
+p{
+    font-size: 14pt;
+}
 
 p.intro{
     font-size: 14pt;
@@ -196,7 +199,7 @@ footer{
 #T1{
     position: absolute;
     top: 50%;
-    left: 22%;
+    left: 18%;
     transform: translateY(-50%);
     font-size: 14pt
 }
@@ -219,7 +222,7 @@ footer{
 
 #T4{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 8%;
     transform: translateY(-50%);
     font-size: 14pt
