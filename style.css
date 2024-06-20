@@ -11,6 +11,7 @@
 
 
 body{
+    position: relative;
     font-family: 'chaton';
     min-height: 600vh;
     display: flex;
@@ -46,9 +47,14 @@ p.intro{
     text-justify:inter-word; /* Use inter-word justification */
 } 
 
-section{
+section .tall{
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,21 +118,34 @@ a{
 
 /* FOOTER */
 
-/*section > div.footer{  
+/* section > div.footer{  
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: red;
     color: white;
     text-align: center;
-}*/
+} */
 
 .footer{
+    text-align: center;
+    position: absolute;
     display: flex;
-    justify-content:center;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    bottom: 10px;
+    color: white;
+    width: 100%;
 }
 
+.footer p{
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+}
 .credits{
     
 }
@@ -135,14 +154,14 @@ a{
 
 /* SCROLL */
 
-body{
+body, html{
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
  
-section{
+body > section{
     /*outline: 1px solid pink;*/
     scroll-snap-align: start;
 }
@@ -178,17 +197,117 @@ footer{
 
 /* PAGE DETAIL*/
 
-.colonne{
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 3rem;
+    align-items: stretch;
+}
+
+.row > *{
+    flex: 1 ;
+}
+
+.row.imgInstal{
+flex-direction: row-reverse;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+/* .stickyParent{
+    position: relative;
+    outline: 2px solid pink;
+}
+
+.sticky{
+    position: sticky;
+    top: 5px;
+    outline: 2px solid greenyellow;
+
+}
+
+.scroll{
+    overflow-y: scroll;
+} */
+
+/* .colonne{
     display: flex;
     flex-direction: row;
     align-items:flex-end;
     justify-content: space-between;
-}
+} */
 
 
 
 /* DETAIL */
 .imgInstal{
+    min-height: none;
+}
+
+/* .imgInstal img{
+    width: 30%;
+} */
+
+/* #T1{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translateY(-50%);
+    font-size: 14pt
+} */
+
+/* #T2{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 14pt
+}
+
+#T3{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 14pt
+}
+
+#T4{
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 14pt
+}
+
+#T5{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 14pt
+}
+
+#T6{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 14pt
+} */
+
+/* .imgInstal{
     position: relative;
 }
 
@@ -242,7 +361,7 @@ footer{
     left: 8%;
     transform: translateY(-50%);
     font-size: 14pt
-}
+} */
 
 #black{
     background-image: none;
